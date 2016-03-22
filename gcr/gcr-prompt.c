@@ -25,29 +25,7 @@
 
 #include <glib/gi18n-lib.h>
 
-/**
- * SECTION:gcr-prompt
- * @title: GcrPrompt
- * @short_description: a user prompt
- *
- * A #GcrPrompt represents a prompt displayed to the user. It is an interface
- * with various implementations.
- *
- * Various properties are set on the prompt, and then the prompt is displayed
- * the various prompt methods like gcr_prompt_password_run().
- *
- * A #GcrPrompt may be used to display multiple related prompts. Most
- * implemantions do not hide the window between display of multiple related
- * prompts, and the #GcrPrompt must be closed or destroyed in order to make
- * it go away. This allows the user to see that the prompts are related.
- *
- * Use #GcrPromptDialog to create an in-process GTK+ dialog prompt. Use
- * #GcrSystemPrompt to create a system prompt in a prompter process.
- *
- * The prompt implementation will always display the GcrPrompt:message property,
- * but may choose not to display the GcrPrompt:description or GcrPrompt:title
- * properties.
- */
+
 
 /**
  * GcrPrompt:

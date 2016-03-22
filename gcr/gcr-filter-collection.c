@@ -24,18 +24,7 @@
 
 #include <string.h>
 
-/**
- * SECTION:gcr-filter-collection
- * @title: GcrFilterCollection
- * @short_description: A collection which filters a GcrCollection
- *
- * An implementation of #GcrCollection which filters objects from another
- * underlying collection. Use gcr_filter_collection_new_with_callback()
- * to create a new filter collection.
- *
- * The callback will determine the criteria for whether an object shows through
- * the filter or not.
- */
+
 
 /**
  * GcrFilterCollection:

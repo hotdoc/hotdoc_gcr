@@ -33,14 +33,7 @@
 
 #include <string.h>
 
-/**
- * SECTION:gcr-list-selector
- * @title: GcrListSelector
- * @short_description: A selector widget to one or more certificates from a list.
- *
- * The #GcrListSelector can be used to select one or more certificates or keys.
- * Live search is available for quick filtering.
- */
+
 
 /**
  * GcrListSelector:

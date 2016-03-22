@@ -39,14 +39,7 @@
 #include <locale.h>
 #include <string.h>
 
-/**
- * SECTION:gcr-viewer-widget
- * @title: GcrViewerWidget
- * @short_description: A widget which shows certificates or keys
- *
- * A viewer widget which can display certificates and keys that are
- * located in files.
- */
+
 
 enum {
 	PROP_0,

@@ -28,14 +28,7 @@
 
 #include <string.h>
 
-/**
- * SECTION:gcr-combo-selector
- * @title: GcrComboSelector
- * @short_description: A selector widget to select a single certificate or key.
- *
- * The #GcrComboSelector can be used to select a certificate or key. It allows
- * the user to select one object from the selector at a time.
- */
+
 
 /**
  * GcrComboSelector:

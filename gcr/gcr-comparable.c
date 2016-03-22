@@ -23,14 +23,7 @@
 
 #include <string.h>
 
-/**
- * SECTION:gcr-comparable
- * @title: GcrComparable
- * @short_description: Interface for comparing objects
- *
- * The #GcrComparable interface is implemented by objects when they should be
- * comparable against one another.
- */
+
 
 /**
  * GcrComparable:

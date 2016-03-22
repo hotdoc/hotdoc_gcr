@@ -36,31 +36,7 @@
 #include <string.h>
 #include <glib/gi18n-lib.h>
 
-/**
- * SECTION:gcr-certificate
- * @title: GcrCertificate
- * @short_description: Represents an X.509 certificate
- *
- * This is an interface that represents an X.509 certificate. Objects can
- * implement this interface to make a certificate usable with the GCR
- * library.
- *
- * Various methods are available to parse out relevant bits of the certificate.
- * However no verification of the validity of a certificate is done here. Use
- * your favorite crypto library to do this.
- *
- * You can use #GcrSimpleCertificate to simply load a certificate for which
- * you already have the raw certificate data.
- *
- * The #GcrCertificate interface has several properties that must be implemented.
- * You can use a mixin to implement these properties if desired. See the
- * gcr_certificate_mixin_class_init() and gcr_certificate_mixin_get_property()
- * functions.
- *
- * All certificates are comparable. If implementing a #GcrCertificate, you can
- * use GCR_CERTIFICATE_MIXIN_IMPLEMENT_COMPARABLE() to implement the #GcrComparable
- * interface.
- */
+
 
 /**
  * GcrCertificate:

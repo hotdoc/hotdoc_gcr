@@ -74,7 +74,9 @@ stamp-*
 /docs/reference/*/tmpl
 /docs/reference/*/version.xml
 /docs/reference/*/version.xml
-/docs/reference/*/
+
+docs/reference/hotdoc_gcr/hotdoc-private
+docs/reference/hotdoc_gcr/built_doc
 
 /egg/asn1-def-*.c
 /egg/tests/asn1-def-*.c

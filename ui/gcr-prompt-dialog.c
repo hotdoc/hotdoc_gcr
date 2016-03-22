@@ -30,15 +30,7 @@
 #include <gdk/gdkx.h>
 #include <glib/gi18n.h>
 
-/**
- * SECTION:gcr-prompt-dialog
- * @title: GcrPromptDialog
- * @short_description: a GTK+ dialog prompt
- *
- * A #GcrPrompt implementation which shows a GTK+ dialog. The dialog will
- * remain visible (but insensitive) between prompts. If the user cancels the
- * dialog between prompts, then the dialog will be hidden.
- */
+
 
 /**
  * GcrPromptDialog:

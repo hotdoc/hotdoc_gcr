@@ -33,20 +33,7 @@
 
 #include <glib/gi18n-lib.h>
 
-/**
- * SECTION:gcr-certificate-request
- * @title: GcrCertificateRequest
- * @short_description: Represents a certificate request
- *
- * This is an object that allows creation of certificate requests. A
- * certificate request is sent to a certificate authority to request an
- * X.509 certificate.
- *
- * Use gcr_certificate_request_prepare() to create a blank certificate
- * request for a given private key. Set the common name on the certificate
- * request with gcr_certificate_request_set_cn(), and then sign the request
- * with gcr_certificate_request_complete_async().
- */
+
 
 /**
  * GcrCertificateRequest:

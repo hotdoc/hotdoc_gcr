@@ -37,19 +37,7 @@
 
 #include <string.h>
 
-/**
- * SECTION:gcr-system-prompter
- * @title: GcrSystemPrompter
- * @short_description: a prompter which displays system prompts
- *
- * This is a DBus service which is rarely implemented. Use #GcrSystemPrompt
- * to display system prompts.
- *
- * The GcrSystemPrompter service responds to dbus requests to create system
- * prompts and creates #GcrPrompt type objects to display those prompts.
- *
- * Pass the GType of the implementation of #GcrPrompt to gcr_system_prompter_new().
- */
+
 
 /**
  * GcrSystemPrompter:

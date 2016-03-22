@@ -30,21 +30,7 @@
 
 #include <string.h>
 
-/**
- * SECTION:gcr-mock-prompter
- * @title: GcrMockPrompter
- * @short_description: a mock GcrSystemPrompter for testing
- *
- * A mock GcrSystemPrompter used for testing against.
- *
- * Use gcr_mock_prompter_start() to start the mock prompter in another
- * thread. The returned string is the dbus address of the mock prompter.
- * You can pass this to gcr_system_prompt_open() as the prompter bus name.
- *
- * Use the gcr_mock_prompter_expect_confirm_ok() function and friends before
- * prompting to verify that the prompts are displayed as expected, and to
- * provide a response.
- */
+
 
 GType   _gcr_mock_prompt_get_type       (void) G_GNUC_CONST;
 #define GCR_TYPE_MOCK_PROMPT            (_gcr_mock_prompt_get_type ())

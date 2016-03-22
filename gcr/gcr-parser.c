@@ -44,24 +44,7 @@
 #include <stdlib.h>
 #include <gcrypt.h>
 
-/**
- * SECTION:gcr-parser
- * @title: GcrParser
- * @short_description: Parser for certificate and key files
- *
- * A #GcrParser can parse various certificate and key files such as OpenSSL
- * PEM files, DER encoded certifictes, PKCS\#8 keys and so on. Each various
- * format is identified by a value in the #GcrDataFormat enumeration.
- *
- * In order to parse data, a new parser is created with gcr_parser_new() and
- * then the #GcrParser::authenticate and #GcrParser::parsed signals should be
- * connected to. Data is then fed to the parser via gcr_parser_parse_data()
- * or gcr_parser_parse_stream().
- *
- * During the #GcrParser::parsed signal the attributes that make up the currently
- * parsed item can be retrieved using the gcr_parser_get_parsed_attributes()
- * function.
- */
+
 
 /**
  * GcrParser:

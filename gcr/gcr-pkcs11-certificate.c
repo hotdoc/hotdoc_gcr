@@ -32,7 +32,7 @@
 #include <string.h>
 
 /**
- * SECTION:gcr-pkcs11-certificate
+ * GcrPkcs11Certificate::GcrPkcs11Certificate:
  * @title: GcrPkcs11Certificate
  * @short_description: A certificate loaded from PKCS\#11 storage
  *

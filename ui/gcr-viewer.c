@@ -22,20 +22,7 @@
 #include "gcr-renderer.h"
 #include "gcr-viewer.h"
 
-/**
- * SECTION:gcr-viewer
- * @title: GcrViewer
- * @short_description: A viewer which can hold renderers
- *
- * A #GcrViewer is an abstract interface that represents a widget that can hold
- * various renderers and display their contents.
- *
- * The interaction between #GcrRenderer and #GcrViewer is not stable yet, and
- * so viewers cannot be implemented outside the Gcr library at this time.
- *
- * Use the gcr_viewer_new() and gcr_viewer_new_scrolled() to get default
- * implementations of viewers.
- */
+
 
 /**
  * GcrViewer:

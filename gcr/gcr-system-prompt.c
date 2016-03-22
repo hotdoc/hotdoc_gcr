@@ -34,23 +34,7 @@
 
 #include <glib/gi18n.h>
 
-/**
- * SECTION:gcr-system-prompt
- * @title: GcrSystemPrompt
- * @short_description: a system modal prompt
- *
- * A #GcrPrompt implementation which calls to the system prompter to
- * display prompts in a system modal fashion.
- *
- * Since the system prompter usually only displays one prompt at a time, you
- * may have to wait for the prompt to be displayed. Use gcr_system_prompt_open()
- * or a related function to open a prompt. Since this can take a long time, you
- * should always check that the prompt is still needed after it is opened. A
- * previous prompt may have already provided the information needed and you
- * may no longer need to prompt.
- *
- * Use gcr_system_prompt_close() to close the prompt when you're done with it.
- */
+
 
 /**
  * GcrSystemPrompt:

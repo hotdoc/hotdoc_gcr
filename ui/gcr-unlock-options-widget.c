@@ -21,19 +21,7 @@
 
 #include <glib/gi18n-lib.h>
 
-/**
- * SECTION:gcr-unlock-options-widget
- * @title: GcrUnlockOptionsWidget
- * @short_description: A widget for unlock options
- *
- * This widget displays a set of unlock options for the user to select. The user
- * can choose between keeping caching the unlock indefinitely, or for a given
- * amount of time.
- *
- * Each option has a different name, for example #GCR_UNLOCK_OPTION_ALWAYS. These
- * names are used together with the various functions like
- * gcr_unlock_options_widget_get_choice().
- */
+
 
 /**
  * GCR_UNLOCK_OPTION_ALWAYS:

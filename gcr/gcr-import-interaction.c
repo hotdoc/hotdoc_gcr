@@ -23,16 +23,7 @@
 
 #include "gcr-import-interaction.h"
 
-/**
- * SECTION:gcr-import-interaction
- * @title: GcrImportInteraction
- * @short_description: User interaction during importing
- *
- * This is an interface implemented by a caller performing an import. It allows
- * the importer to ask the caller for further information about the import.
- *
- * It must be implemented on a derived class of #GTlsInteraction
- */
+
 
 /**
  * GcrImportInteraction:

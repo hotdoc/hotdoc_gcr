@@ -27,7 +27,7 @@
 #include <string.h>
 
 /**
- * SECTION:gcr-simple-certificate
+ * GcrSimpleCertificate::GcrSimpleCertificate:
  * @title: GcrSimpleCertificate
  * @short_description: A certificate loaded from a memory buffer
  *

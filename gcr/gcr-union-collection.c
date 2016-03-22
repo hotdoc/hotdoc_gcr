@@ -27,15 +27,7 @@
 
 #include <string.h>
 
-/**
- * SECTION:gcr-union-collection
- * @title: GcrUnionCollection
- * @short_description: A GcrCollection which combines other collections
- *
- * An implementation of #GcrCollection, which combines the objects in
- * other #GcrCollections. Use gcr_union_collection_add() to add and
- * gcr_union_collection_remove() to remove them.
- */
+
 
 /**
  * GcrUnionCollection:

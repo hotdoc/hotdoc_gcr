@@ -26,15 +26,7 @@
 
 #include <string.h>
 
-/**
- * SECTION:gcr-simple-collection
- * @title: GcrSimpleCollection
- * @short_description: A simple implementation of GcrCollection
- *
- * A simple implementation of #GcrCollection, which you can add and remove
- * objects from. Use gcr_simple_collection_add() to do this
- * gcr_simple_collection_remove().
- */
+
 
 /**
  * GcrSimpleCollection:

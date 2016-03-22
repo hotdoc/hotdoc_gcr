@@ -1,0 +1,6 @@
+* [GcrPkcs11Certificate]()
+* [gcr_pkcs11_certificate_lookup_issuer]()
+* [GcrPkcs11CertificateClass]()
+* [gcr_pkcs11_certificate_lookup_issuer_async]()
+* [gcr_pkcs11_certificate_get_attributes]()
+* [gcr_pkcs11_certificate_lookup_issuer_finish]()

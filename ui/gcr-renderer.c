@@ -31,21 +31,7 @@
 
 #include <gtk/gtk.h>
 
-/**
- * SECTION:gcr-renderer
- * @title: GcrRenderer
- * @short_description: An interface implemented by renderers.
- *
- * A #GcrRenderer is an interface that's implemented by renderers which wish
- * to render data to a #GcrViewer.
- *
- * The interaction between #GcrRenderer and #GcrViewer is not stable yet, and
- * so new renderers cannot be implemented outside the Gcr library at this time.
- *
- * To lookup a renderer for a given set of attributes, use the gcr_renderer_create()
- * function. This will create and initialize a renderer that's capable of viewing
- * the data in those attributes.
- */
+
 
 /**
  * GcrRenderer:
