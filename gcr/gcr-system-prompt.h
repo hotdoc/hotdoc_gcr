@@ -27,6 +27,7 @@
 #define __GCR_SYSTEM_PROMPT_H__
 
 #include "gcr-types.h"
+#include "gcr-prompt.h"
 #include "gcr-secret-exchange.h"
 
 #include <glib-object.h>

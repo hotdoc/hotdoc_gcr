@@ -24,6 +24,7 @@
 #define __GCR_LIST_SELECTOR_H__
 
 #include "gcr/gcr-types.h"
+#include "gcr/gcr-collection.h"
 
 #include <gtk/gtk.h>
 
